@@ -1,18 +1,110 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title size="large">
-      Dicas para Academia
-    </ion-title>
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title>Dicas de Academia</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Dicas para Academia</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<ion-content [fullscreen]="true" color="dark">
+  <img src="https://i.ytimg.com/vi/8t6NGIb-pVM/maxresdefault.jpg" alt="">
+
+  <ion-chip color="light">Aplicativo para iniciantes dentro da academia!</ion-chip>
+  <ion-card>
+    <ion-item color="medium">
+      <ion-label color="dark"><strong>Começando dentro da academia</strong></ion-label>
+    </ion-item>
+
+    <ion-text color="dark">
+      <h5>Para um bom início na academia, devemos entender o que é hipertrofia muscular.
+        Quando fazemos a contração do músculo, estamos rompendo as fibra musculares, causando lesões dentro
+        do músculo, logo essas fibras precisam ser restauradas, mas quando essas fibras são reconstruídas, elas
+        são reconstruídas mais resistentes e maiores para aguentar o próximo treino, assim gerando hipertrofia.
+      </h5>
+    </ion-text>
+
+  </ion-card>
+
+  <ion-card>
+    <ion-text color="dark">
+      <h5>Para que a hipertrofia ocorra, devemos priorizar o consumo de
+        proteínas para construção de tecido muscular
+      </h5>
+    </ion-text>
+  </ion-card>
+
+  <ion-accordion-group expand="inset">
+    <ion-accordion value="first">
+      <ion-item slot="header" color="medium">
+        <ion-label><strong>Alimentos para hipertrofia</strong></ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-item color="light">
+          <ion-thumbnail slot="start">
+            <img src="https://img.taste.com.au/F0W1xU4i/taste/2018/02/cls0318eggss_eggs-135792-1.jpg" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Ovos</h2>
+              <p>Ricos em proteínas e</p>
+              <p>gorduras saudáveis</p>
+            </div>
+          </ion-label>
+        </ion-item>
+        <ion-item color="light">
+          <ion-thumbnail slot="start">
+            <img src="https://img.cybercook.com.br/imagens/receitas/340/file-de-frango-grelhado-2.jpeg" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Peito de frango</h2>
+              <p>Rico em proteínas e</p>
+              <p>baixo custo</p>
+            </div>
+          </ion-label>
+        </ion-item>
+        <ion-item color="light">
+          <ion-thumbnail slot="start">
+            <img src="https://emporioquatroestrelas.vteximg.com.br/arquivos/ids/158181-1000-1000/Lentilha-500g.png?v=636935248908230000" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Lentilhas</h2>
+              <p>Ricas em proteínas e</p>
+              <p>opção vegana</p>
+            </div>
+          </ion-label>
+        </ion-item>
+      </div>
+    </ion-accordion>
+  </ion-accordion-group>
+
+  <ion-card>
+    <ion-item color="medium">
+      <ion-label color="dark"><strong>Como treinar?</strong></ion-label>
+    </ion-item>
+
+
+
+    <ion-text color="dark">
+      <h5>Para um iniciante, eu recomendaria fazer um treino full body, mas o que seria um treino
+        full body? Bom, ele vai ser um treino que irá recrutar tanto seus membros inferiores quanto
+        os superiores, faça os exercícios simples, como agachamento livre, rosca direta e peck deck(voador)
+      </h5>
+    </ion-text>
+
+  </ion-card>
+
+  <ion-card>
+    <ion-text color="dark">
+      <h5>Faça isso por 3 dias para se acostumar com os movimentos e priorize a execução, depois pense em
+        colocar peso após esse início
+      </h5>
+    </ion-text>
+  </ion-card>
+
+
+
+
+
 </ion-content>
