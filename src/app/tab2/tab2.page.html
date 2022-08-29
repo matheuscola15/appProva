@@ -1,17 +1,146 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-title>
       Divisão de Treino
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" color="dark">
+  <img src="https://cutewallpaper.org/22/chris-bumstead-wallpapers/2125931312.jpg" alt="">
+  <ion-accordion-group>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="danger">
+        <ion-label><strong>Divisão para Iniciantes</strong></ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-item color="light">
+          <ion-thumbnail slot="start">
+            <img src="https://www.educlub.com.br/wp-content/uploads/2020/02/palavras-com-a-letra-a-800x508.jpg" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Segunda -- Treino A</h2>
+              <p>Peitoral e tríceps</p>
+            </div>
+          </ion-label>
+        </ion-item>
+        <ion-item color="light">
+          <ion-thumbnail slot="start">
+            <img src="https://pbs.twimg.com/profile_images/2479702258/61sql1ch9qgbvjfh40n7_400x400.png" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Terça -- Treino B</h2>
+              <p>Perna completa</p>
+              <p>Quadríceps e posterior</p>
+            </div>
+          </ion-label>
+        </ion-item>
+        <ion-item color="light">
+          <ion-thumbnail slot="start">
+            <img src="https://cdn.leroymerlin.com.br/products/rev_deco_letra_c_20x20_pc_art_90728302_000100_600x600.jpg" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Quarta -- Treino C</h2>
+              <p>Dorsais e Bíceps</p>
+            </div>
+          </ion-label>
+        </ion-item>
+      </div>
+    </ion-accordion>
+  </ion-accordion-group>
+  <ion-accordion-group>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="dark">
+        <ion-label><strong>Divisão para Intermediários</strong></ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-item color="light">
+          <ion-thumbnail slot="start">
+            <img src="https://www.educlub.com.br/wp-content/uploads/2020/02/palavras-com-a-letra-a-800x508.jpg" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Ovos</h2>
+              <p>Ricos em proteínas e</p>
+              <p>gorduras saudáveis</p>
+            </div>
+          </ion-label>
+        </ion-item>
+        <ion-item color="light">
+          <ion-thumbnail slot="start">
+            <img src="https://pbs.twimg.com/profile_images/2479702258/61sql1ch9qgbvjfh40n7_400x400.png" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Peito de frango</h2>
+              <p>Rico em proteínas e</p>
+              <p>baixo custo</p>
+            </div>
+          </ion-label>
+        </ion-item>
+        <ion-item color="light">
+          <ion-thumbnail slot="start">
+            <img src="https://www.educlub.com.br/wp-content/uploads/2020/02/palavras-com-a-letra-a-800x508.jpg" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Lentilhas</h2>
+              <p>Ricas em proteínas e</p>
+              <p>opção vegana</p>
+            </div>
+          </ion-label>
+        </ion-item>
+      </div>
+    </ion-accordion>
+  </ion-accordion-group>
+  <ion-accordion-group>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="tertiary">
+        <ion-label><strong>Divisão para Avançados</strong></ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-item color="light">
+          <ion-thumbnail slot="start">
+            <img src="https://img.taste.com.au/F0W1xU4i/taste/2018/02/cls0318eggss_eggs-135792-1.jpg" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Ovos</h2>
+              <p>Ricos em proteínas e</p>
+              <p>gorduras saudáveis</p>
+            </div>
+          </ion-label>
+        </ion-item>
+        <ion-item color="light">
+          <ion-thumbnail slot="start">
+            <img src="https://img.cybercook.com.br/imagens/receitas/340/file-de-frango-grelhado-2.jpeg" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Peito de frango</h2>
+              <p>Rico em proteínas e</p>
+              <p>baixo custo</p>
+            </div>
+          </ion-label>
+        </ion-item>
+        <ion-item color="light">
+          <ion-thumbnail slot="start">
+            <img src="https://emporioquatroestrelas.vteximg.com.br/arquivos/ids/158181-1000-1000/Lentilha-500g.png?v=636935248908230000" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Lentilhas</h2>
+              <p>Ricas em proteínas e</p>
+              <p>opção vegana</p>
+            </div>
+          </ion-label>
+        </ion-item>
+      </div>
+    </ion-accordion>
+  </ion-accordion-group>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+
 </ion-content>
