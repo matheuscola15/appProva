@@ -1,17 +1,216 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-title>
       Alimentação Adequada
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Alimentação Adequada</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" color="dark">
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <img src="https://i.ytimg.com/vi/2ylRnJoxvn4/maxresdefault.jpg" alt="">
+
+  <ion-chip color="light">Tudo sobre alimentação e macronutrientes!</ion-chip>
+
+
+  <ion-card>
+    <ion-item color="warning">
+      <h5><strong>Alimentação voltada para o ganho de massa muscular:</strong></h5>
+    </ion-item>
+
+    <ion-text color="dark">
+      <h5>Bom, para maximizar os nossos ganhos de massa, devemos ingerir a quantidade de 2 gramas por kilo
+        corporal, por exemplo, se o indivíduo possui 80kg, ele deve consumir cerca de 160 gramas de proteína
+        ao total no dia. Essa quantidade de proteína deve ser fracionada durante as refeições!
+      </h5>
+    </ion-text>
+
+  </ion-card>
+
+  <ion-card>
+    <ion-item color="warning">
+      <h5><strong>Macronutrientes: Carboidrato</strong></h5>
+    </ion-item>
+
+    <ion-text color="dark">
+      <h5>Os carboidratos são os principais responsáveis pela produção de energia no nosso corpo. Basicamente
+        se você não ingerir carboidratos, você vai ser sentir severamente cansado e muito irritado, pois
+        sem eles os seus níveis de cortisol são aumentados. Então para um bom treino de musculação, consuma
+        uma quantidade boa de carboidratos para ter disposição no seu treino!
+      </h5>
+    </ion-text>
+
+  </ion-card>
+
+  <ion-accordion-group expand="inset">
+    <ion-accordion value="first">
+      <ion-item slot="header" color="medium">
+        <ion-label><strong>Carboidratos</strong></ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img src="https://images.tcdn.com.br/img/img_prod/645387/aveia_em_flocos_492_1_ec5615e4d2c3b2bbd1d9ecc7508c49bb.jpg" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Aveia</h2>
+              <p>Rica em carboidatos e</p>
+              <p>fibras</p>
+            </div>
+          </ion-label>
+        </ion-item>
+        <ion-item >
+          <ion-thumbnail slot="start">
+            <img src="data:image/jpeg;base64,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" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Banana</h2>
+              <p>Rica em carboidratos e</p>
+              <p>potássio</p>
+            </div>
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img src="https://i0.wp.com/comidadebebe.pt/wp-content/uploads/2021/03/Blog-2-42.png?resize=1080%2C675&ssl=1" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Massas</h2>
+              <p>As massas são uma</p>
+              <p>boa opção de carboidato</p>
+            </div>
+          </ion-label>
+        </ion-item>
+      </div>
+    </ion-accordion>
+  </ion-accordion-group>
+
+  <ion-card>
+    <ion-item color="warning">
+      <h5><strong>Macronutrientes: Proteína</strong></h5>
+    </ion-item>
+
+    <ion-text color="dark">
+      <h5>As proteínas são as moléculas que produzem seu tecido muscular, logo, o consumo de proteínas
+        são essenciais para a construção de massa muscular, então para quem visa o ganho de massa
+        dentro da academia, uma boa dieta repleta de proteínas são sem dúvida indispensável.
+      </h5>
+    </ion-text>
+
+  </ion-card>
+
+  <ion-accordion-group expand="inset">
+    <ion-accordion value="first">
+      <ion-item slot="header" color="medium">
+        <ion-label><strong>Proteínas</strong></ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img src="https://img.taste.com.au/F0W1xU4i/taste/2018/02/cls0318eggss_eggs-135792-1.jpg" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Ovos</h2>
+              <p>Ricos em proteínas e</p>
+              <p>gorduras saudáveis</p>
+            </div>
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img src="https://img.cybercook.com.br/imagens/receitas/340/file-de-frango-grelhado-2.jpeg" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Peito de frango</h2>
+              <p>Rico em proteínas e</p>
+              <p>baixo custo</p>
+            </div>
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img src="https://emporioquatroestrelas.vteximg.com.br/arquivos/ids/158181-1000-1000/Lentilha-500g.png?v=636935248908230000" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Lentilhas</h2>
+              <p>Ricas em proteínas e</p>
+              <p>opção vegana</p>
+            </div>
+          </ion-label>
+        </ion-item>
+      </div>
+    </ion-accordion>
+  </ion-accordion-group>
+
+  <ion-card>
+    <ion-item color="warning">
+      <h5><strong>Macronutrientes: Gordura</strong></h5>
+    </ion-item>
+
+    <ion-text color="dark">
+      <h5>As gorduras também são ótimas produtoras de energia e ajudam a controlar os sistemas e o funcionamento
+        do seu organismo, mas cuidado, apenas 1 grama de gordura possui 9kcal, logo se consumida em excesso, essas
+        calorias que foram consumidas, serão convertidas em tecido adiposo, que seria a nossa gordura corporal, então
+        fique atento no consumo de gorduras em excesso, mas também não deixe de consumir, então opte por gorduras
+        boas, como a do azeite, amendoin e abacate!
+      </h5>
+    </ion-text>
+
+  </ion-card>
+
+  <ion-accordion-group expand="inset">
+    <ion-accordion value="first">
+      <ion-item slot="header" color="medium">
+        <ion-label><strong>Gorduras</strong></ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img src="https://www.anad.org.br/wp-content/uploads/2015/10/azeiteoliva.jpg" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Azeite</h2>
+              <p>Rico em gorduras</p>
+              <p>inssaturadas(boa)</p>
+            </div>
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img src="https://images.tcdn.com.br/img/img_prod/758670/amendoim_torrado_sem_sal_100g_109_1_20200514142306.jpg" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Amendoim</h2>
+              <p>Rico em gorduras e</p>
+              <p>proteíco</p>
+            </div>
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img src="https://s2.glbimg.com/atIp_axsQ9CQci2-CQ6zGIqLTUU=/1200x/smart/filters:cover():strip_icc()/s.glbimg.com/es/ge/f/original/2014/11/20/abacate.jpg" alt=""/>
+          </ion-thumbnail>
+          <ion-label>
+            <div>
+              <h2>Abacate</h2>
+              <p>Rico em gorduras e</p>
+              <p>uma boa opção na </p>
+              <p>dieta</p>
+            </div>
+          </ion-label>
+        </ion-item>
+      </div>
+    </ion-accordion>
+  </ion-accordion-group>
+
+
+
 </ion-content>
